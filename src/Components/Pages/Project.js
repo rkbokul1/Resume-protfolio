@@ -3,7 +3,7 @@ import ProjectCarousel from './ProjectCarousel';
 
 const Project = () => {
     return (
-        <div id='project' className='mt-16'>
+        <div id='project' className='mt-16 container mx-auto'>
             <h1 className='text-5xl text-center'>Leatest Project</h1>
             <ProjectCarousel/>
             

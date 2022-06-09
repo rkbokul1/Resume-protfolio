@@ -1,28 +1,59 @@
 import React from 'react';
+import manu from './../../img/manu.jpg';
+import react from './../../img/react.png';
+import mern from './../../img/mern.jfif';
 
 const ProjectCarousel = () => {
-    return (
-        <div className='container mx-auto'>
-            <div class="carousel w-6/12 mx-auto mt-14 flex ">
-                <div id="item1" class="carousel-item w-full h-96">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=8B7BCDC2" class="w-full" />
+    return ( 
+        <div className='mt-16'>
+
+            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+                <div>
+                    <div class="card bg-base-300 shadow-xl text-black  ">
+                        <figure class="px-10 pt-10">
+                            <img src={manu} alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Manufaturer Website</h2>
+                            <p>This is an product management website using react</p>
+                            <div class="card-actions justify-end">
+                                <button hreg class="btn btn-primary"><a target="_blank" href="https://manufacturer-website-a12.web.app/">Live Link</a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="item2" class="carousel-item w-full h-96">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=500B67FB" class="w-full" />
+                <div>
+                    <div class="card bg-base-300 shadow-xl text-black  ">
+                        <figure class="px-10 pt-10">
+                            <img src={manu} alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Manufaturer Website</h2>
+                            <p>This is an product management website using react</p>
+                            <div class="card-actions justify-end">
+                                <button hreg class="btn btn-primary"><a target="_blank" href="https://manufacturer-website-a12.web.app/">Live Link</a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="item3" class="carousel-item w-full h-96">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6" class="w-full" />
+                <div>
+                    <div class="card bg-base-300 shadow-xl text-black  ">
+                        <figure class="px-10 pt-10">
+                            <img src={manu} alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Manufaturer Website</h2>
+                            <p>This is an product management website using react</p>
+                            <div class="card-actions justify-end">
+                                <button hreg class="btn btn-primary"><a target="_blank" href="https://manufacturer-website-a12.web.app/">Live Link</a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="item4" class="carousel-item w-full h-96">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=225E6693" class="w-full" />
-                </div>
+                
+
             </div>
-            <div class="flex justify-center w-full py-2 gap-2">
-                <a href="#item1" class="btn btn-xs">1</a>
-                <a href="#item2" class="btn btn-xs">2</a>
-                <a href="#item3" class="btn btn-xs">3</a>
-                <a href="#item4" class="btn btn-xs">4</a>
-            </div>
+
         </div>
     );
 };
